@@ -17,7 +17,4 @@ jobs:
           # You can target a project in a different organization
           # to the issue
           project-url: https://github.com/orgs/strangelove-ventures/projects/4
-          # github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          gh_app_secret_key: ${{ secrets.MB_TEST }}
-          gh_app_ID: ${{ secrets.MB_APP_ID }}
-          gh_app_installation_ID: ${{ secrets.MB_CLIENT_ID }}
+          github-token: ${{ secrets.pat }}
